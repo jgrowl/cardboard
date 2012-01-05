@@ -10,32 +10,32 @@ import java.util.List;
  * Date: 12/27/11
  * Time: 9:01 PM
  */
-public class StandardPile implements Pile {
+public class StandardPile implements Pile<Piece> {
 
 	/**
-	 * Contains all pieces in the pile.
+	 * Contains all mPieces in the pile.
 	 */
-	protected List<Piece> pieces;
+	protected List<Piece> mPieces;
 
     /**
      * {@inheritDoc}
      */
     public boolean isEmpty() {
-        return this.pieces.isEmpty();
+        return mPieces.isEmpty();
     }
 
     /**
      * {@inheritDoc}
      */
     public Piece remove(int index) {
-        return this.pieces.remove(index);
+        return mPieces.remove(index);
     }
 
     /**
      * {@inheritDoc}
      */
     public Piece removeFirst() {
-        return this.remove(0);
+        return remove(0);
     }
 
     /**
@@ -43,8 +43,8 @@ public class StandardPile implements Pile {
      */
     public List<Piece> removeAll() {
         List<Piece> removedPieces = new ArrayList<Piece>();
-        while (!this.isEmpty()) {
-            removedPieces.add(this.removeFirst());
+        while (!isEmpty()) {
+            removedPieces.add(removeFirst());
         }
 
         return removedPieces;
@@ -58,7 +58,7 @@ public class StandardPile implements Pile {
 			throw new NullPointerException("Cannot transfer pieces from an empty pile.");
 		}
 
-		this.pieces.addAll(pile.removeAll());
+		mPieces.addAll(pile.removeAll());
     }
 
     /**
@@ -69,7 +69,7 @@ public class StandardPile implements Pile {
 			throw new NullPointerException("Cannot add null pieces to a pile.");
 		}
 
-		this.pieces.add(piece);
+		mPieces.add(piece);
     }
 
     /**
@@ -80,21 +80,21 @@ public class StandardPile implements Pile {
             throw new NullPointerException("Cannot add null pieces to pile.");
         }
 
-        this.pieces.addAll(pieces);
+        mPieces.addAll(pieces);
     }
 
     /**
      * {@inheritDoc}
      */
     public void shuffle() {
-        Collections.shuffle(pieces);
+        Collections.shuffle(mPieces);
     }
 
     /**
      * {@inheritDoc}
      */
     public Iterator<Piece> iterator() {
-        return pieces.iterator();
+        return mPieces.iterator();
     }
 
 }

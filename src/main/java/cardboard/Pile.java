@@ -3,77 +3,76 @@ package cardboard;
 import java.util.List;
 
 /**
- * Represents a Pile of pieces
+ * Represents a Pile of mPieces
  * <p/>
  * User: jonathan
  * Date: 12/27/11
  * Time: 8:46 PM
  */
-public interface Pile extends Iterable<Piece> {
+public interface Pile<T> extends Iterable<T> {
 
     /**
-     * Determines if a pile still has pieces remaining in it.
+     * Determines if a pile still has items remaining in it.
      *
-     * @return true if the pile still has pieces in it, false otherwise.
+     * @return true if the pile still has items in it, false otherwise.
      */
     public boolean isEmpty();
 
     /**
-     * Pops a piece from a specified index in the pile.
+     * Pops an item from a specified index in the pile.
      * <p/>
-     * Pre-condition: There must be a piece that exists at the specified index.
+     * Pre-condition: There must be an item that exists at the specified index.
      *
-     * @param index The index of the piece to be drawn.
-     * @return A piece.
+     * @param index The index of the item to be drawn.
+     * @return An item.
      */
-    public Piece remove(int index);
+    public T remove(int index);
 
     /**
-     * Pops a piece from the top of the pile.
+     * Pops an item from the top of the pile.
      * <p/>
      * Pre-conditions: The pile must not be empty.
      *
-     * @return A piece.
+     * @return An item.
      */
-    public Piece removeFirst();
+    public T removeFirst();
 
     /**
-     * Pops all pieces from the pile.
+     * Pops all items from the pile.
      * <p/>
      * Post-conditions: The pile will be empty.
      *
-     * @return All of the pieces in the pile.
+     * @return All of the items in the pile.
      */
-    public List<Piece> removeAll();
+    public List<T> removeAll();
 
     /**
-     * Moves pieces from a specified pile to this pile.
+     * Moves items from a specified pile to this pile.
      * <p/>
-     * Post-conditions: Pieces will be added to this CardPile, but will not remain
-     * in passed CardPile.
+     * Post-conditions: Items will be added to this pile, but will not remain
+     * in passed pile.
      *
      * @param pile The pile we are transferring.
      */
     public void transfer(Pile pile);
 
     /**
-     * Adds a single piece to the pile.
+     * Adds a single item to the pile.
      *
-     * @param piece The piece to be added.
+     * @param item The item to be added.
      */
-    public void add(Piece piece);
+    public void add(T item);
 
     /**
-     * Adds all specified pieces to the pile.
+     * Adds all specified items to the pile.
      *
-     * @param pieces The pieces to add.
+     * @param items The item to add.
      */
-    public void addAll(List<Piece> pieces);
+    public void addAll(List<T> items);
 
     /**
      * Shuffles the pile.
      */
     public void shuffle();
-
 
 }
