@@ -15,8 +15,7 @@ public class TestHelper {
     private static Mockery sContext = new Mockery();
 
     public static Piece getAnonymousPiece() {
-        String pieceName = new StringBuilder("piece-").append(RandomStringUtils.randomAlphanumeric(10)).toString();
-        return sContext.mock(Piece.class, pieceName);
+        return sContext.mock(Piece.class, getAnonymousPrefixedString("piece"));
     }
 
     public static List<Piece> getAnonymousPieces(int numberOfPieces) {
@@ -31,6 +30,10 @@ public class TestHelper {
 
     public static PiecePile getAnonymousPiecePile(int numberOfPieces) {
         return new PiecePile(getAnonymousPieces(numberOfPieces));
+    }
+
+    public static String getAnonymousPrefixedString(String prefix) {
+        return prefix + RandomStringUtils.randomAlphanumeric(10);
     }
 
 }
