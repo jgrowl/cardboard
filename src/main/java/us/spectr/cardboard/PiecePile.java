@@ -1,4 +1,4 @@
-package cardboard;
+package us.spectr.cardboard;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,12 +10,16 @@ import java.util.List;
  * Date: 12/27/11
  * Time: 9:01 PM
  */
-public class StandardPile implements Pile<Piece> {
+public class PiecePile implements Pile<Piece> {
 
 	/**
-	 * Contains all mPieces in the pile.
+	 * Contains all pieces in the pile.
 	 */
 	protected List<Piece> mPieces;
+
+    public PiecePile(List<Piece> mPieces) {
+        this.mPieces = mPieces;
+    }
 
     /**
      * {@inheritDoc}
@@ -42,11 +46,8 @@ public class StandardPile implements Pile<Piece> {
      * {@inheritDoc}
      */
     public List<Piece> removeAll() {
-        List<Piece> removedPieces = new ArrayList<Piece>();
-        while (!isEmpty()) {
-            removedPieces.add(removeFirst());
-        }
-
+        List<Piece> removedPieces = mPieces;
+        mPieces = new ArrayList<Piece>();
         return removedPieces;
     }
 

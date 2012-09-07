@@ -1,4 +1,4 @@
-package cardboard;
+package us.spectr.cardboard;
 
 
 public interface GameMachine {

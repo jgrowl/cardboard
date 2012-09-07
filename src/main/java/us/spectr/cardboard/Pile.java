@@ -1,10 +1,10 @@
-package cardboard;
+package us.spectr.cardboard;
 
 import java.util.List;
 
 /**
- * Represents a Pile of mPieces
- * <p/>
+ * Represents a Pile
+ *
  * User: jonathan
  * Date: 12/27/11
  * Time: 8:46 PM
@@ -20,7 +20,7 @@ public interface Pile<T> extends Iterable<T> {
 
     /**
      * Pops an item from a specified index in the pile.
-     * <p/>
+     *
      * Pre-condition: There must be an item that exists at the specified index.
      *
      * @param index The index of the item to be drawn.
@@ -30,7 +30,7 @@ public interface Pile<T> extends Iterable<T> {
 
     /**
      * Pops an item from the top of the pile.
-     * <p/>
+     *
      * Pre-conditions: The pile must not be empty.
      *
      * @return An item.
@@ -39,7 +39,7 @@ public interface Pile<T> extends Iterable<T> {
 
     /**
      * Pops all items from the pile.
-     * <p/>
+     *
      * Post-conditions: The pile will be empty.
      *
      * @return All of the items in the pile.
@@ -48,7 +48,7 @@ public interface Pile<T> extends Iterable<T> {
 
     /**
      * Moves items from a specified pile to this pile.
-     * <p/>
+     *
      * Post-conditions: Items will be added to this pile, but will not remain
      * in passed pile.
      *
