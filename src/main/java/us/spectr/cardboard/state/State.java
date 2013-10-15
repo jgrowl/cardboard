@@ -1,4 +1,4 @@
-package us.spectr.cardboard;
+package us.spectr.cardboard.state;
 
 /**
  * Represents a state.
@@ -7,6 +7,5 @@ package us.spectr.cardboard;
  * 
  */
 public interface State {
-
 
 }

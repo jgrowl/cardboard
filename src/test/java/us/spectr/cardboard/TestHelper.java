@@ -2,6 +2,7 @@ package us.spectr.cardboard;
 
 import org.apache.commons.lang.RandomStringUtils;
 import org.jmock.Mockery;
+import us.spectr.cardboard.state.GameMachine;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +13,7 @@ import java.util.List;
  * Time: 10:20 PM
  */
 public class TestHelper {
+
     private static Mockery sContext = new Mockery();
 
     public static Piece getAnonymousPiece() {
@@ -34,6 +36,10 @@ public class TestHelper {
 
     public static String getAnonymousPrefixedString(String prefix) {
         return prefix + RandomStringUtils.randomAlphanumeric(10);
+    }
+
+    public static GameMachine getAnonymousTurnBasedGameMachine() {
+        return sContext.mock(GameMachine.class);
     }
 
 }

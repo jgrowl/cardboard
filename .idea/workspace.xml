@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47d319ce-0275-4d58-9a33-c0abde0ae665" name="intellijconfig" comment="Created method to generate an anonymous prefixed string">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_assistedinject_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/condition/Condition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/AbstractConditionsEndable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/ConditionsEndable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/GameMachine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/PhaseState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/StandardGameMachine.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/us/spectr/cardboard/state/GameMachineTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/GameMachine.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/State.java" afterPath="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/State.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cardboard.iml" afterPath="$PROJECT_DIR$/cardboard.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/us/spectr/cardboard/QuickTestSuite.java" afterPath="$PROJECT_DIR$/src/test/java/us/spectr/cardboard/QuickTestSuite.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/us/spectr/cardboard/TestHelper.java" afterPath="$PROJECT_DIR$/src/test/java/us/spectr/cardboard/TestHelper.java" />
     </list>
     <ignored path="cardboard.iws" />
@@ -14,11 +30,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any>
@@ -61,37 +86,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Piece.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Piece.java">
+      <file leaf-file-name="ConditionsEndable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/ConditionsEndable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+            <state line="7" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Pile.java">
+      <file leaf-file-name="AbstractConditionsEndable.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/AbstractConditionsEndable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="6" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0">
+            <state line="8" column="19" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Player.java">
+      <file leaf-file-name="Trader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Trader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+            <state line="9" column="17" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PiecePile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/PiecePile.java">
+      <file leaf-file-name="Condition.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/condition/Condition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="44" selection-start="239" selection-end="244" vertical-scroll-proportion="0.0">
+            <state line="9" column="33" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameMachine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/GameMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="54" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhaseState.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/PhaseState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StandardGameMachine.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/StandardGameMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="4" selection-start="352" selection-end="352" vertical-scroll-proportion="0.18218085">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/us/spectr/cardboard/TestHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="62" selection-start="1086" selection-end="1118" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,22 +161,8 @@
       <file leaf-file-name="QuickTestSuite.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/us/spectr/cardboard/QuickTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestHelper.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/us/spectr/cardboard/TestHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="37" selection-start="904" selection-end="904" vertical-scroll-proportion="0.64285713">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#545#552#0" expanded="true" />
-              </folding>
+            <state line="10" column="29" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,10 +170,8 @@
       <file leaf-file-name="PileTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/us/spectr/cardboard/PileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="60" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="11" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -144,22 +189,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cardboard/StandardMerchant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cardboard/Stock.java" />
-        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/GameMachine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Buyer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Merchant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Seller.java" />
-        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Trader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Pile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/StandardPile.java" />
-        <option value="$PROJECT_DIR$/src/test/java/us/spectr/cardboard/Quick.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/TurnBasedGameMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/State.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/PhaseState.java" />
         <option value="$PROJECT_DIR$/src/test/java/us/spectr/cardboard/QuickTestSuite.java" />
-        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/PiecePile.java" />
-        <option value="$PROJECT_DIR$/src/test/java/us/spectr/cardboard/AbstractTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/us/spectr/cardboard/PileTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/us/spectr/cardboard/TestHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/us/spectr/cardboard/state/TurnBasedGameMachineTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/StandardTurnBasedGameMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/TurnBasedGameMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/GameMachine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/Endable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/ConditionEndable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/StandardConditionEndable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/condition/Condition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/StandardConditionsEndable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/StandardGameMachine.java" />
       </list>
     </option>
   </component>
@@ -171,6 +216,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
@@ -179,9 +227,8 @@
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="787" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -264,107 +311,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cardboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Favorites" />
     </panes>
   </component>
@@ -374,7 +332,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="reference.settings.project.maven.importing" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Gradle" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -387,6 +345,9 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="us.spectr.cardboard.state" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/cardboard" />
     </key>
@@ -557,37 +518,43 @@
       <created>1346987147397</created>
       <updated>1346987147397</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created method to generate an anonymous prefixed string">
+      <created>1346988340506</created>
+      <updated>1346988340506</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="787" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884902" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Output" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884902" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26867816" sideWeight="0.6711712" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32882884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994253" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22198276" sideWeight="0.67290884" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32709113" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833958" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -629,7 +596,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved in a few interfaces from JDominion project. Started to flush out a more generic approach. Added first test for piles." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created method to generate an anonymous prefixed string" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -645,6 +612,7 @@
     <MESSAGE value="Removed the Card class and replaced it with a more abstract Piece. &#10;&#10;Revamped Pile to use the new Piece instead of card as well as restructuring some things.&#10;&#10;Added interfaces I think I will need that will fit in with the more abstract cardboard library." />
     <MESSAGE value="Added merchant interface and the start of a standard merchant implementation. Implementation is unfinished." />
     <MESSAGE value="Moved in a few interfaces from JDominion project. Started to flush out a more generic approach. Added first test for piles." />
+    <MESSAGE value="Created method to generate an anonymous prefixed string" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -688,105 +656,85 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/State.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Transactionable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Trader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="65" selection-start="743" selection-end="743" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/GameMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Pile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="6" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/us/spectr/cardboard/QuickTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jmock/jmock/2.5.1/jmock-2.5.1.jar!/org/jmock/Mockery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2864" selection-end="2864" vertical-scroll-proportion="0.76623374">
-          <folding />
-        </state>
+        <state line="7" column="17" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jmock/jmock/2.5.1/jmock-2.5.1-sources.jar!/org/jmock/Mockery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="13" selection-start="1513" selection-end="1513" vertical-scroll-proportion="-1.3643216">
-          <folding />
-        </state>
+        <state line="118" column="17" selection-start="4514" selection-end="4514" vertical-scroll-proportion="0.33265308" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="997" selection-end="997" vertical-scroll-proportion="0.81155777">
-          <folding />
-        </state>
+        <state line="32" column="96" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/PiecePile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="239" selection-end="244" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="44" selection-start="239" selection-end="244" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Piece.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/us/spectr/cardboard/state/GameMachineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="18" column="80" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/us/spectr/cardboard/PileTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/ConditionsEndable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="60" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="7" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/AbstractConditionsEndable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/Trader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/condition/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/GameMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="54" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/PhaseState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/us/spectr/cardboard/TestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="37" selection-start="904" selection-end="904" vertical-scroll-proportion="0.64285713">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#545#552#0" expanded="true" />
-          </folding>
+        <state line="40" column="62" selection-start="1086" selection-end="1118" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/us/spectr/cardboard/QuickTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="29" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/us/spectr/cardboard/PileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/us/spectr/cardboard/state/StandardGameMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="4" selection-start="352" selection-end="352" vertical-scroll-proportion="0.18218085">
+          <folding />
         </state>
       </provider>
     </entry>
